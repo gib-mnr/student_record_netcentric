@@ -1,0 +1,20 @@
+@page
+@* @model StudentRecord.Views.NewStudent. *@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Success</title>
+</head>
+<body>
+<h1>Student Created Successfully!</h1>
+
+<a href="/NewStudent/Index">Add Another Student</a>
+
+<p>
+    <a href="@Url.Action("ListPage")">View All Students</a>
+    <br />
+    <a href="@Url.Action("Index")">Add Another Student</a>
+</p>
+</body>
+</html>
